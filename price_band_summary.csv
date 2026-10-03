@@ -1,0 +1,16 @@
+price_band,event_type,users
+1. Under 5,cart,60348
+1. Under 5,purchase,19987
+1. Under 5,view,176388
+2. 5-10,cart,45562
+2. 5-10,purchase,16068
+2. 5-10,view,130412
+3. 10-20,cart,26539
+3. 10-20,purchase,9488
+3. 10-20,view,90881
+4. 20-50,cart,10642
+4. 20-50,purchase,3365
+4. 20-50,view,61341
+5. 50+,cart,3776
+5. 50+,purchase,1121
+5. 50+,view,39802
