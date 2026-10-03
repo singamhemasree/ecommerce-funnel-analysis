@@ -1,0 +1,15 @@
+import duckdb
+
+FILE = "data/2019-Dec.csv"
+
+query = f"""
+SELECT
+    event_type,
+    COUNT(*) AS events,
+    COUNT(DISTINCT user_id) AS users
+FROM read_csv_auto('{FILE}')
+GROUP BY event_type
+ORDER BY users DESC
+"""
+
+print(duckdb.sql(query).df())
